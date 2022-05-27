@@ -1,0 +1,25 @@
+.loginParent{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    .__body{
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: 0.25rem;
+        padding:61px 56px 56px;
+        text-align: center;
+        p{
+            color: #80E491;
+            font-size: 2rem;
+            font-family: 'Montserrat', sans-serif;
+        }
+        a{
+            color: #ffffff;
+            margin-top: 10px;
+            background-color: #80E491;
+            padding: 20px;
+        }
+    }
+}

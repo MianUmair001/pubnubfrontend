@@ -1,0 +1,29 @@
+.dashboardParent{
+    .textArea{
+        background: gray;
+        height: 100vh;
+        border-radius: 10px;
+        position: relative;
+
+        .inputText{
+            // position: fixed;
+            // bottom: 0;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+        }
+        .messages{
+            font-size: 20px;
+            color: white;
+        }
+        .senderMessage{
+            text-align: right;
+        }
+    }
+}
+.video-modal{
+    width: 100% !important;
+}
+.css-4dyean{
+    width: auto !important;
+}
